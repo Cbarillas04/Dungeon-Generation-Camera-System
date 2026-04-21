@@ -14,7 +14,7 @@ https://www.youtube.com/watch?v=hcyz6Wvk41I
 ## How It Works
 
 ### Procedural Generation
-The dungeon starts from a single node and expands outward using a branching system. Each room spawns with 2–4 new connection points or becomes a special room type (no extra expansion points). Generation continues until a set limit is reached, producing a unique layout each run.
+The dungeon starts from a single node and expands outward using a branching system. Each room spawns with 2–4 new connection points or becomes a special room type (no extra expansion points). Generation continues until a set limit is reached, producing a unique layout each run. Once complete, open nodes means there is no connection and a wall will be generated there. Closed nodes means there is a room to room connection and a doorway will generate instead.
 
 ### Camera System
 The system scans nearby humanoid root parts within a defined range and selects the closest valid target. Players can toggle lock-on to focus the camera on the selected target. System avoids other player humanoid parts.
